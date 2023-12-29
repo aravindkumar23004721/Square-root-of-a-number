@@ -15,16 +15,18 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
-```
+#Square root for the number.
+#Developed dy:Aravind kumer
+#Referance Number:23004721
+n=int(input())
+approx=0.5*n
+for i in range(1,10):
+    a=0.5*(approx+n/approx)
+    approx=a
+print("Square root of the number:",a)
 
 ## Output:
-![gcd of two number](gcd.png)
+![Screenshot 2023-12-29 202439](https://github.com/aravindkumar23004721/Square-root-of-a-number/assets/148962674/73e1fb9d-8c9c-445e-9584-dbe2083609d8)
 
 
 ## Result:
